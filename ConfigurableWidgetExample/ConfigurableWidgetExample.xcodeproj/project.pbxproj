@@ -51,17 +51,35 @@
 			);
 			target = 217892EE2F2B19E0003233D5 /* ExampleWidgetExtension */;
 		};
+		217893282F2B1E67003233D5 /* Exceptions for "ExampleWidget" folder in "ConfigurableWidgetExample" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				PaymentMethodIntents.intentdefinition,
+			);
+			target = 217892A62F2B15C0003233D5 /* ConfigurableWidgetExample */;
+		};
+		2178932A2F2B1EB7003233D5 /* Exceptions for "ConfigurableWidgetExample" folder in "ConfigurableWidgetExample" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 217892A62F2B15C0003233D5 /* ConfigurableWidgetExample */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		217892A92F2B15C0003233D5 /* ConfigurableWidgetExample */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2178932A2F2B1EB7003233D5 /* Exceptions for "ConfigurableWidgetExample" folder in "ConfigurableWidgetExample" target */,
+			);
 			path = ConfigurableWidgetExample;
 			sourceTree = "<group>";
 		};
 		217892F52F2B19E0003233D5 /* ExampleWidget */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				217893282F2B1E67003233D5 /* Exceptions for "ExampleWidget" folder in "ConfigurableWidgetExample" target */,
 				217893032F2B19E1003233D5 /* Exceptions for "ExampleWidget" folder in "ExampleWidgetExtension" target */,
 			);
 			path = ExampleWidget;
@@ -378,6 +396,7 @@
 				DEVELOPMENT_TEAM = X4KXY85MB9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConfigurableWidgetExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -411,6 +430,7 @@
 				DEVELOPMENT_TEAM = X4KXY85MB9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConfigurableWidgetExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
